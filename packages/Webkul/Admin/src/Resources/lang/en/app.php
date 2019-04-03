@@ -817,7 +817,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => '© Copyright 2018 Webkul Software, All rights reserved.'
+        'copy-right' => '© Copyright 2019 FBC In-House Software, All rights reserved.'
     ],
 
     'admin' => [

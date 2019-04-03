@@ -128,7 +128,7 @@ return [
             'forgot_pass' => 'Esqueceu sua Senha?',
             'button_title' => 'Entrar',
             'remember' => 'Lembrar de mim',
-            'footer' => '© Copyright :year Webkul Software, Todos os direitos reservados',
+            'footer' => '© Copyright :year FBC In-House Software, Todos os direitos reservados',
             'invalid-creds' => 'Por favor, verifique suas credenciais e tente novamente',
             'verify-first' => 'Verifique seu e-mail primeiro',
             'resend-verification' => 'Reenviar email de verificação novamente'
@@ -492,7 +492,7 @@ return [
     ],
 
     'webkul' => [
-        'copy-right' => '© Copyright :year Webkul Software, Todos os Direitos Reservados',
+        'copy-right' => '© Copyright :year FBC In-House Software, Todos os Direitos Reservados',
     ],
 
     'response' => [

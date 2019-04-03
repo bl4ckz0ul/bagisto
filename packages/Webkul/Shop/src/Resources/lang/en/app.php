@@ -131,7 +131,7 @@ return [
             'forgot_pass' => 'Forgot Password?',
             'button_title' => 'Sign In',
             'remember' => 'Remember Me',
-            'footer' => '© Copyright :year Webkul Software, All rights reserved',
+            'footer' => '© Copyright :year FBC In-House Software, All rights reserved',
             'invalid-creds' => 'Please Check Your Credentials And Try Again',
             'verify-first' => 'Verify Your Email Account First',
             'resend-verification' => 'Resend Verification Mail Again'
@@ -494,7 +494,7 @@ return [
     ],
 
     'webkul' => [
-        'copy-right' => '© Copyright :year Webkul Software, All rights reserved',
+        'copy-right' => '© Copyright :year FBC In-House Software, All rights reserved',
     ],
 
     'response' => [

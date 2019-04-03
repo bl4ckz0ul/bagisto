@@ -19,7 +19,7 @@ use Cart;
  * removing the products in the cart.
  *
  * @author    Prashant Singh <prashant.singh852@webkul.com> @prashant-webkul
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 FBC In-House Software Pvt Ltd (http://www.webkul.com)
  */
 class CartController extends Controller
 {

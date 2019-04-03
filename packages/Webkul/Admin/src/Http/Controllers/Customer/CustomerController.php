@@ -13,7 +13,7 @@ use Webkul\Core\Repositories\ChannelRepository as Channel;
  * Customer controlller
  *
  * @author    Rahul Shukla <rahulshukla.symfony517@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 FBC In-House Software Pvt Ltd (http://www.webkul.com)
  */
 class CustomerController extends Controller
 {

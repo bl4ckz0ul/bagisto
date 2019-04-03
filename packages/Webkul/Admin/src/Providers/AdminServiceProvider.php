@@ -12,7 +12,7 @@ use Webkul\Core\Tree;
  * Admin service provider
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 FBC In-House Software Pvt Ltd (http://www.webkul.com)
  */
 class AdminServiceProvider extends ServiceProvider
 {

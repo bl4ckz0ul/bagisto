@@ -11,7 +11,7 @@ use Webkul\Product\Repositories\ProductReviewRepository as ProductReview;
  * Review controller
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 FBC In-House Software Pvt Ltd (http://www.webkul.com)
  */
 class ReviewController extends Controller
 {
