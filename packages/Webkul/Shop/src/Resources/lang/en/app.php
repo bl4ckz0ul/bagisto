@@ -18,7 +18,7 @@ return [
     ],
 
     'home' => [
-        'page-title' => 'Bagisto - Home',
+        'page-title' => 'FBC Store - Home',
         'featured-products' => 'Featured Products',
         'new-products' => 'New Products',
         'verify-email' => 'Verify Your Email Account',
@@ -66,7 +66,7 @@ return [
 
     'search' => [
         'no-results' => 'No Results Found',
-        'page-title' => 'Bagisto - Search',
+        'page-title' => 'FBC Store - Search',
         'found-results' => 'Search Results Found',
         'found-result' => 'Search Result Found'
     ],

@@ -8,7 +8,7 @@
         </div>
 
         <div  style="font-size:16px; color:#242424; font-weight:600; margin-top: 60px; margin-bottom: 15px">
-            Bagisto - Email Verification
+            FBC Store - Email Verification
         </div>
 
         <div>
