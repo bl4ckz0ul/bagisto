@@ -19,9 +19,9 @@
 
             <p style="font-size: 16px;color: #5E5E5E;line-height: 24px;">
                 {!! __('shop::app.mail.order.greeting', [
-                    'order_id' => '<a href="' . route('customer.orders.view', $order->id) . '" style="color: #0041FF; font-weight: bold;">#' . $order->id . '</a>',
+                    'order_id' => '<a href="' . route('customer.orders.view', $order->id) . '" style="color: #96281b; font-weight: bold;">#' . $order->id . '</a>',
                     'created_at' => $order->created_at
-                    ]) 
+                    ])
                 !!}
             </p>
         </div>
@@ -51,7 +51,7 @@
                 <div>---</div>
 
                 <div style="margin-bottom: 40px;">
-                    {{ __('shop::app.mail.order.contact') }} : {{ $order->shipping_address->phone }} 
+                    {{ __('shop::app.mail.order.contact') }} : {{ $order->shipping_address->phone }}
                 </div>
 
                 <div style="font-size: 16px;color: #242424;">
@@ -83,7 +83,7 @@
                 <div>---</div>
 
                 <div style="margin-bottom: 40px;">
-                    {{ __('shop::app.mail.order.contact') }} : {{ $order->billing_address->phone }} 
+                    {{ __('shop::app.mail.order.contact') }} : {{ $order->billing_address->phone }}
                 </div>
 
                 <div style="font-size: 16px; color: #242424;">
@@ -119,7 +119,7 @@
                         {{ $item->qty }}
                     </span>
                 </div>
-                
+
                 @if ($html = $item->getOptionDetailHtml())
                     <div style="">
                         <label style="margin-top: 10px; font-size: 16px;color: #5E5E5E; display: block;">
@@ -162,10 +162,10 @@
 
         <div style="margin-top: 65px;font-size: 16px;color: #5E5E5E;line-height: 24px;display: inline-block;width: 100%">
             <p style="font-size: 16px;color: #5E5E5E;line-height: 24px;">
-                {!! 
+                {!!
                     __('shop::app.mail.order.help', [
-                        'support_email' => '<a style="color:#0041FF" href="mailto:' . config('mail.from.address') . '">' . config('mail.from.address'). '</a>'
-                        ]) 
+                        'support_email' => '<a style="color:#96281b" href="mailto:' . config('mail.from.address') . '">' . config('mail.from.address'). '</a>'
+                        ])
                 !!}
             </p>
 

@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Request;
  * Tree class
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 class Tree {
 

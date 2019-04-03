@@ -63,7 +63,7 @@ return [
 
     'search' => [
         'no-results' => 'لا توجد نتائج',
-        'page-title' => 'Bagisto - Search',
+        'page-title' => 'FBC Store - Search',
         'found-results' => 'تم العثور على نتائج البحث',
         'found-result' => 'تم العثور على نتيجة البحث'
     ],
@@ -127,7 +127,7 @@ return [
             'forgot_pass' => 'نسيت كلمة السر؟',
             'button_title' => 'وقع هنا',
             'remember' => 'تذكريني',
-            'footer' => '© Copyright 2018 Webkul Software, جميع الحقوق محفوظة',
+            'footer' => '© copyright 2019 FBC In-House Software, جميع الحقوق محفوظة',
             'invalid-creds' => 'الرجاء التحقق من أوراق اعتمادك ومحاولة مرة أخرى',
             'verify-first' => 'تحقق من حساب بريدك الإلكتروني أولا',
             'resend-verification' => 'إعادة إرسال البريد الإلكتروني للتحقق مرة أخرى'
@@ -484,7 +484,7 @@ return [
     ],
 
     'webkul' => [
-        'copy-right' => '© Copyright 2018 Webkul Software, All rights reserved'
+        'copy-right' => '© copyright 2019 FBC In-House Software, All rights reserved'
     ],
 
     'response' => [

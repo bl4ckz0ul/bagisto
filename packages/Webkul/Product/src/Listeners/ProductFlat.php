@@ -15,7 +15,7 @@ use Webkul\Product\Models\ProductAttributeValue;
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
  * @author    Prashant Singh <prashant.singh852@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 class ProductFlat
 {
@@ -120,7 +120,7 @@ class ProductFlat
     public function afterAttributeDeleted($attributeId)
     {
         $attribute = $this->attributeRepository->find($attributeId);
-        
+
         if (Schema::hasTable('product_flat')) {
             if (Schema::hasColumn('product_flat', strtolower($attribute->code))) {
                 Schema::table('product_flat', function (Blueprint $table) use($attribute) {

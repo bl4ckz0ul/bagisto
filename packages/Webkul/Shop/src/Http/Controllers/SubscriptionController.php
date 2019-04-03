@@ -14,8 +14,8 @@ use Webkul\Core\Repositories\SubscribersListRepository as Subscription;
 /**
  * Subscription controller
  *
- * @author    Prashant Singh <prashant.singh852@webkul.com> @prashant-webkul
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @author    Jaypee Villanueva <339y4j@gmail.com> @jaypee-soft
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 class SubscriptionController extends Controller
 {

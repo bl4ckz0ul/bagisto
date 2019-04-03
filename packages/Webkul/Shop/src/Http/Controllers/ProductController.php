@@ -10,7 +10,7 @@ use Webkul\Product\Repositories\ProductRepository as Product;
  * Product controller
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 class ProductController extends Controller
 {

@@ -16,7 +16,7 @@ use Webkul\Product\Repositories\ProductInventoryRepository as ProductInventory;
  * Dashboard controller
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 class DashboardController extends Controller
 {
@@ -54,28 +54,28 @@ class DashboardController extends Controller
      * @var array
      */
     protected $productInventory;
-    
+
     /**
      * string object
      *
      * @var array
      */
     protected $startDate;
-    
+
     /**
      * string object
      *
      * @var array
      */
     protected $lastStartDate;
-    
+
     /**
      * string object
      *
      * @var array
      */
     protected $endDate;
-    
+
     /**
      * string object
      *
@@ -188,7 +188,7 @@ class DashboardController extends Controller
                         return $query->where('orders.created_at', '>=', $interval['start'])
                             ->where('orders.created_at', '<=', $interval['end']);
                     })->sum('base_grand_total');
-                
+
             $statistics['sale_graph']['total'][] = $total;
             $statistics['sale_graph']['formated_total'][] = core()->formatBasePrice($total);
         }
@@ -283,11 +283,11 @@ class DashboardController extends Controller
      */
     public function setStartEndDate()
     {
-        $this->startDate = request()->get('start') 
+        $this->startDate = request()->get('start')
             ? Carbon::createFromTimeString(request()->get('start') . " 00:00:01")
             : Carbon::createFromTimeString(Carbon::now()->subDays(30)->format('Y-m-d') . " 00:00:01");
 
-        $this->endDate = request()->get('end') 
+        $this->endDate = request()->get('end')
             ? Carbon::createFromTimeString(request()->get('end') . " 23:59:59")
             : Carbon::now();
 

@@ -10,7 +10,7 @@ use Maatwebsite\Excel\Concerns\ShouldAutoSize;
  * DataGridExport class
  *
  * @author    Rahul Shukla <rahulshukla.symfony517@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 FBC In-House Software  (http://www.webkul.com)
  */
 
 class DataGridExport implements FromView, ShouldAutoSize

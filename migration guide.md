@@ -2,13 +2,13 @@
 
 #### Note: Only for git users or updating by zip file from the release section from repository
 
-* Better way to update Bagisto is to overwrite the code by manually downloading the zip file and extract it on the main project directory.
+* Better way to update FBC Store is to overwrite the code by manually downloading the zip file and extract it on the main project directory.
 
     or
-* Delete or rename the old installation directory and install the new one using the installation process in the readme of Bagisto.
+* Delete or rename the old installation directory and install the new one using the installation process in the readme of FBC Store.
 
 
-* Follow these commands below if you're doing overwrite else use your old .env file before deleting/backing up old bagisto release and installing the new release of Bagisto.
+* Follow these commands below if you're doing overwrite else use your old .env file before deleting/backing up old FBC Store release and installing the new release of FBC Store.
 
 ## 1. Migration from v0.1.0 to v0.1.1
 

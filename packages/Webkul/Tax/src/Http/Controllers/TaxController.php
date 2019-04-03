@@ -14,7 +14,7 @@ use Webkul\Tax\Repositories\TaxMapRepository as TaxMap;
  * Tax controller
  *
  * @author    Prashant Singh <prashant.singh852@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 class TaxController extends Controller
 {

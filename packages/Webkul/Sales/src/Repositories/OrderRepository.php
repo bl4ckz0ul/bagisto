@@ -13,7 +13,7 @@ use Webkul\Sales\Repositories\OrderItemRepository;
  * Order Reposotory
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 
 class OrderRepository extends Repository
@@ -172,7 +172,7 @@ class OrderRepository extends Repository
             $totalQtyCanceled += $item->qty_canceled;
         }
 
-        if ($totalQtyOrdered != ($totalQtyRefunded + $totalQtyCanceled) && 
+        if ($totalQtyOrdered != ($totalQtyRefunded + $totalQtyCanceled) &&
             $totalQtyOrdered == $totalQtyInvoiced + $totalQtyRefunded + $totalQtyCanceled &&
             $totalQtyOrdered == $totalQtyShipped + $totalQtyRefunded + $totalQtyCanceled)
             return true;

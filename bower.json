@@ -1,9 +1,9 @@
 {
-  "name": "bagisto",
+  "name": "fbcstore",
   "description": "An eCommerce ecosystem for All to build and scale your business.",
   "main": "",
   "authors": [
-    "Webkul <support@webkul.com>"
+    "JAYPEE <339y4j@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
@@ -14,5 +14,5 @@
     "store",
     "commerce"
   ],
-  "homepage": "https://github.com/bagisto/bagisto"
+  "homepage": "https://fbc.com/339y4j"
 }

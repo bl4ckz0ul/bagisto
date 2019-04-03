@@ -28,7 +28,7 @@ body {
     cursor: pointer;
     font: inherit;
     display: inline-block;
-    background: #0041FF;
+    background: #96281b;
     color: #ffffff;
     padding: 10px 20px;
     margin-top: 20px;
@@ -165,7 +165,7 @@ pre.bash {
     height: 48px;
     display: inline-block;
     box-sizing: border-box;
-    border-top: solid 6px #0041FF;
+    border-top: solid 6px #96281b;
     border-right: solid 6px #bababa;
     border-bottom: solid 6px #bababa;
     border-left: solid 6px #bababa;

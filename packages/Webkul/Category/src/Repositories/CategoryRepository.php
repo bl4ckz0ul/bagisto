@@ -14,7 +14,7 @@ use Illuminate\Database\Eloquent\ModelNotFoundException;
  * Category Reposotory
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 FBC In-House Software  (http://www.webkul.com)
  */
 class CategoryRepository extends Repository
 {

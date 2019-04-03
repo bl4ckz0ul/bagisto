@@ -11,7 +11,7 @@ use Webkul\Core\Repositories\SliderRepository as Sliders;
  * Home page controller
  *
  * @author    Prashant Singh <prashant.singh852@webkul.com> @prashant-webkul
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 FBC In-House Software  (http://www.webkul.com)
  */
  class HomeController extends Controller
 {

@@ -77,7 +77,7 @@
                 <div class="adjacent-center">
 
                     <div class="brand-logo">
-                        <img src="{{ asset('vendor/webkul/ui/assets/images/logo.png') }}" alt="Bagisto"/>
+                        <img src="{{ asset('vendor/webkul/ui/assets/images/logo.svg') }}" alt="Bagisto"/>
                     </div>
 
                     {!! view_render_event('bagisto.admin.layout.content.before') !!}

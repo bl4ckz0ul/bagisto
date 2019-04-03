@@ -8,7 +8,7 @@ use Webkul\Core\Eloquent\Repository;
  * CustomerGroup Reposotory
  *
  * @author    Rahul Shukla <rahulshukla.symfony517@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 
 class CustomerGroupRepository extends Repository

@@ -14,7 +14,7 @@ use Webkul\Sales\Repositories\InvoiceItemRepository as InvoiceItem;
  * Invoice Reposotory
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 
 class InvoiceRepository extends Repository
@@ -63,7 +63,7 @@ class InvoiceRepository extends Repository
 
         parent::__construct($app);
     }
-    
+
     /**
      * Specify Model class name
      *
@@ -82,7 +82,7 @@ class InvoiceRepository extends Repository
     public function create(array $data)
     {
         DB::beginTransaction();
-        
+
         try {
             Event::fire('sales.invoice.save.before', $data);
 
@@ -124,7 +124,7 @@ class InvoiceRepository extends Repository
                         'product_type' => $orderItem->product_type,
                         'additional' => $orderItem->additional,
                     ]);
-                
+
                 if ($orderItem->type == 'configurable' && $orderItem->child) {
                     $childOrderItem = $orderItem->child;
 
@@ -162,7 +162,7 @@ class InvoiceRepository extends Repository
 
             throw $e;
         }
-        
+
         DB::commit();
 
         return $invoice;

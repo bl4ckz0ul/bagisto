@@ -9,7 +9,7 @@ use Webkul\Core\Eloquent\Repository;
  * OrderItem Reposotory
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 
 class OrderItemRepository extends Repository
@@ -55,7 +55,7 @@ class OrderItemRepository extends Repository
 
             $totalInvoiced += $invoiceItem->total;
             $baseTotalInvoiced += $invoiceItem->base_total;
-            
+
             $taxInvoiced += $invoiceItem->tax_amount;
             $baseTaxInvoiced += $invoiceItem->base_tax_amount;
         }
@@ -69,7 +69,7 @@ class OrderItemRepository extends Repository
 
         $orderItem->total_invoiced = $totalInvoiced;
         $orderItem->base_total_invoiced = $baseTotalInvoiced;
-        
+
         $orderItem->tax_amount_invoiced = $taxInvoiced;
         $orderItem->base_tax_amount_invoiced = $baseTaxInvoiced;
 
@@ -96,7 +96,7 @@ class OrderItemRepository extends Repository
         $orderedInventory = $product->ordered_inventories()
             ->where('channel_id', $orderItem->order->channel->id)
             ->first();
-        
+
         if ($orderedInventory) {
             $orderedInventory->update([
                     'qty' => $orderedInventory->qty + $orderItem->qty_ordered

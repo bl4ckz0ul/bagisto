@@ -11,7 +11,7 @@ use Webkul\API\Http\Resources\Catalog\Product as ProductResource;
  * Product controller
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 FBC In-House Software  (http://www.webkul.com)
  */
 class ProductController extends Controller
 {
@@ -31,7 +31,7 @@ class ProductController extends Controller
     public function __construct(ProductRepository $productRepository)
     {
         // $this->middleware('auth:api');
-        
+
         $this->productRepository = $productRepository;
     }
 

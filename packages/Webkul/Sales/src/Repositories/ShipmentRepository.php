@@ -14,7 +14,7 @@ use Webkul\Sales\Repositories\ShipmentItemRepository as ShipmentItem;
  * Shipment Reposotory
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 
 class ShipmentRepository extends Repository
@@ -63,7 +63,7 @@ class ShipmentRepository extends Repository
 
         parent::__construct($app);
     }
-    
+
     /**
      * Specify Model class name
      *
@@ -82,7 +82,7 @@ class ShipmentRepository extends Repository
     public function create(array $data)
     {
         DB::beginTransaction();
-        
+
         try {
             Event::fire('sales.shipment.save.before', $data);
 
@@ -156,7 +156,7 @@ class ShipmentRepository extends Repository
 
             throw $e;
         }
-        
+
         DB::commit();
 
         return $shipment;

@@ -9,7 +9,7 @@ use Illuminate\Http\Response;
  * Core controller
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 FBC In-House Software  (http://www.webkul.com)
  */
 class CoreController extends Controller
 {

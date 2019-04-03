@@ -9,7 +9,7 @@ use Webkul\Sales\Repositories\InvoiceRepository;
  * Paypal ipn listener helper
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 class Ipn
 {
@@ -107,7 +107,7 @@ class Ipn
     {
         if ($this->post['payment_status'] == 'completed') {
             if ($this->post['mc_gross'] != $this->order->grand_total) {
-                
+
             } else {
                 $this->orderRepository->update(['status' => 'processing'], $this->order->id);
 

@@ -9,7 +9,7 @@ use Webkul\Core\Eloquent\Repository;
  * SubscribersList Repository
  *
  * @author    Prashant Singh <prashant.singh852@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 class SubscribersListRepository extends Repository
 {

@@ -10,7 +10,7 @@ use Illuminate\Container\Container as App;
  * Reposotory
  *
  * @author    Jitendra Singh <jitendra@webkul.com>
- * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
+ * @copyright 2019 JP Software  (http://www.webkul.com)
  */
 abstract class Repository extends BaseRepository {
 
@@ -26,7 +26,7 @@ abstract class Repository extends BaseRepository {
     public function findOneByField($field, $value = null, $columns = ['*'])
     {
         $model = parent::findByField($field, $value, $columns = ['*']);
-        
+
         return $model->first();
     }
 
@@ -42,7 +42,7 @@ abstract class Repository extends BaseRepository {
     public function findOneWhere(array $where, $columns = ['*'])
     {
         $model = parent::findWhere($where, $columns);
-        
+
         return $model->first();
     }
 
