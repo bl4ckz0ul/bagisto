@@ -12,3 +12,5 @@ env_variables:
   # Put production environment variables here.
   APP_LOG: errorlog
   APP_KEY: base64:ZgDXwd82ynaMkFc6zS1P+AVkLsLnHdSwIdHgogOgm9A=
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
