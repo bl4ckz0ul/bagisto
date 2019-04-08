@@ -19,3 +19,6 @@ yarn-error.log
 composer.lock
 package-lock.json
 bu.gcloudignore
+config/database.aws.php
+banner.cfg
+banner.cfg

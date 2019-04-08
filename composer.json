@@ -1,6 +1,6 @@
 {
-    "name": "bagisto/bagisto",
-    "description": "Bagisto Laravel ECommerce",
+    "name": "bl4ckz0ul/fbcstore",
+    "description": "FBC Store Laravel ECommerce",
     "keywords": [
         "framework",
         "laravel"
@@ -108,7 +108,7 @@
             "@php artisan package:discover"
         ],
         "post-install-cmd": [
-    "chmod -R 755 bootstrap\/cache",
+    "chmod -R 755 bootstrap\\\/cache",
     "php artisan cache:clear"
         ]
     },

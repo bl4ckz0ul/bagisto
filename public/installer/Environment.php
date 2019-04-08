@@ -14,7 +14,7 @@
                             <div class="control-group" id="app_name">
                                 <label for="app_name" class="required">App Name</label>
                                 <input type = "text" name = "app_name" class = "control"
-                                value = "Bagisto_"
+                                value = "FBCStore_"
                                 data-validation="required length" data-validation-length="max50"
                                 >
                             </div>
