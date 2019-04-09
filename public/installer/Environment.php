@@ -62,7 +62,7 @@
                             <div class="control-group" id="user_name">
                                 <label for="user_name" class="required">User Name</label>
                                 <input type="text" name="user_name" class="control"
-                                value = "bagisto_"
+                                value = "fbcstore_"
                                 data-validation="length required" data-validation-length="max50">
                             </div>
 
