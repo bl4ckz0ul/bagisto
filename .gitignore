@@ -22,3 +22,4 @@ config/database.aws.php
 banner.cfg
 banner.cfg
 .env
+ - Copy.env
