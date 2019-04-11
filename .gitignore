@@ -15,7 +15,6 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 /ignorables/*
-composer.lock
 package-lock.json
 bu.gcloudignore
 config/database.aws.php
