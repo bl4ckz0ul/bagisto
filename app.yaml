@@ -3,6 +3,7 @@ env: flex
 
 runtime_config:
   document_root: public
+  enable_stackdriver_integration: true
 
 # Ensure we skip ".env", which is only for local development
 skip_files:
@@ -10,18 +11,5 @@ skip_files:
 
 env_variables:
   # Put production environment variables here.
-  APP_LOG: errorlog
-  APP_KEY: base64:j7aqbvzWUx/BbUnoUsemSAceXc4C/MKz6H92MFp9Tuw=
-  CACHE_DRIVER: database
-  SESSION_DRIVER: database
-  ## Set these environment variables according to your CloudSQL configuration.
-  DB_HOST: localhost
-  DB_DATABASE: fbcstore
-  DB_USERNAME: fbcstore
-  DB_PASSWORD: fbcstore
-  DB_SOCKET: "/cloudsql/fbcstore:asia-east1:fbcstore"
-
-beta_settings:
-    # for Cloud SQL, set this value to the Cloud SQL connection name,
-    # e.g. "project:region:cloudsql-instance"
-    cloud_sql_instances: "fbcstore:asia-east1:fbcstore"
+  LOG_CHANNEL: stackdriver
+  APP_KEY: base64:fy2KCavANGFgsnCTWZ++WI1RelF2H7zoUvaEV/fB2gw=
