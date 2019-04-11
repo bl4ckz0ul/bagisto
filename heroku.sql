@@ -19,9 +19,9 @@
 -- Current Database: `fbcstore`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `jyxbbgnyuv` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_bin */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `heroku_ab225d040dc4ce1` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_bin */;
 
-USE `jyxbbgnyuv`;
+USE `heroku_ab225d040dc4ce1`;
 
 --
 -- Table structure for table `admin_password_resets`
